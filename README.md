@@ -35,6 +35,7 @@ npm start
 🔗 http://localhost:3000
 📁 Estructura de la base de datos (db.json)
 Este servidor utiliza un archivo JSON con la siguiente estructura:
+```json
 {
   "characters": [
     {
@@ -52,7 +53,7 @@ Este servidor utiliza un archivo JSON con la siguiente estructura:
     }
   ]
 }
-
+```
 
 <!--
 ### 🚀 Cómo ejecutar la base de datos localmente:
