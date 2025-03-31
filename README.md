@@ -31,9 +31,10 @@ npm install
 ```bash
 npm start
 ```
-📌 Por defecto, la API estará en:
+### 📌 Por defecto, la API estará en:
 🔗 http://localhost:3000
-📁 Estructura de la base de datos (db.json)
+
+### 📁 Estructura de la base de datos (db.json)
 Este servidor utiliza un archivo JSON con la siguiente estructura:
 ```json
 {
@@ -53,6 +54,25 @@ Este servidor utiliza un archivo JSON con la siguiente estructura:
     }
   ]
 }
+```
+
+### 📌 Uso con Fetch / Axios
+Puedes consumir la API desde tu aplicación con JavaScript, React, Vue, etc.
+
+🔹 Ejemplo con fetch
+```js
+fetch("https://game-of-thrones-json-server-one.vercel.app/characters")
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+```
+🔹 Ejemplo con Axios
+```js
+import axios from "axios";
+
+axios.get("https://game-of-thrones-json-server-one.vercel.app/characters")
+  .then(response => console.log(response.data));
+
 ```
 
 <!--
