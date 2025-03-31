@@ -1,4 +1,13 @@
-﻿# game-of-thrones-json-server
+### 🚀 Cómo ejecutar la base de datos localmente:
+
+Si quieres ejecutarlo en tu PC, clona el repositorio y usa los siguientes comandos:
+   ```bash
+   git clone https://github.com/Doggenn/Game-Of--Thrones-Json-Server.git
+   cd Game-Of--Thrones-Json-Server
+   npm install
+   npm start
+   ```
+ # game-of-thrones-json-server
 
  Characters
 
